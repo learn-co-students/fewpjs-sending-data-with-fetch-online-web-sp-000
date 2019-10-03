@@ -26,7 +26,39 @@
       "id": 2
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "name": "Andrew",
+      "email": "email@email.com",
+      "id": 3
+    },
+    {
+      "name": "Andrew D",
+      "email": "email@email.com",
+      "id": 4
+    },
+    {
+      "name": "Andrew D",
+      "email": "email@email.com",
+      "id": 5
+    },
+    {
+      "name": "Andrew D",
+      "email": "email@email.com",
+      "id": 6
+    },
+    {
+      "name": "Andrew D",
+      "email": "email@email.com",
+      "id": 7
+    }
+  ],
   "robots": [
     {
       "robotName": "C8-09S100K",
