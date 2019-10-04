@@ -5,8 +5,14 @@ function submitData(name, email) {
     method: 'POST',
     headers: {
       "Content-Type": 'application/json',
-      "Accept": 'application/json';
+      "Accept": 'application/json'
     },
-    body: stringify.JSON()
-  })
+    body: JSON.stringify({
+      name, email
+    })
+  }).then(resp => resp.json()).then(function(json) {
+    document.body.innerHTML = json.id;
+  }).catch(error => {
+    document.body.innerHTML = error.message;
+  });
 }
