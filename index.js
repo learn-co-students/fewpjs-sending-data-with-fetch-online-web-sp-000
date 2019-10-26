@@ -18,12 +18,12 @@ function submitData(name, email){
       return response.json();
     })
     .then(function(object) {
-      document.innerHTML = object["id"];
+      document.querySelector('body').innerHTML = object["id"];
 
     })
     .catch(function(error) {
     alert("Unauthorized access");
-    document.innerHTML = error.message;
+    document.querySelector('body').innerHTML = error.message;
   });
 
 }
