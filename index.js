@@ -7,19 +7,18 @@ function submitData(name,email){
       "Accept": "application/json"
     },
     body: JSON.stringify({
-      name: name,
-      email:email
+      name,
+      email
     })
   }
-  fetch('http://localhost:3000/users',configurationObject)
+  return fetch('http://localhost:3000/users',configurationObject)
     .then(resp=>resp.json())
     .then(function(json){
       console.log(json.id)
       document.body.innerHTML = json.id
     })
+    .catch(function(message){
+      document.body.innerHTML = message
+    })
 }
 
-function addJsonToDom(json){
-   console.log(json.id)
-  
-}
