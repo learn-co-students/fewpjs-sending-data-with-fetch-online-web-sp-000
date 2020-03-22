@@ -20,26 +20,13 @@ function submitData(name, email){
         .then(function(response){
         return response.json();
         })
-        .then(function(json){
-            
-        //    let box = document.createElement("UL")
-        //    let item = document.createElement("LI")
-        let newEle = document.createElement("p")
-            newEle.innerText = json.id
-            document.body.appendChild(newEle)
-            
-        return newEle
-            //box.appendChild(item)
+        .then(function(object){
+            document.body.innerHTML = object.id
         })
 
         .catch(function(error) {
-            document.body.appendChild(error.message);
+            document.body.innerHTML = error.message;
           });
 
-    
-}
-
-document.addEventListener('DOMContentLoaded', (event) => {
-    submitData(name, email);
-});
+}  
 
