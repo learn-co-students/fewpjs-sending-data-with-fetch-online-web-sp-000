@@ -15,7 +15,7 @@ function submitData(userName, userEmail) {
     body: JSON.stringify(formData)
   }
 
-  fetch("http://localhost:3000/users", configObj)
+  return fetch("http://localhost:3000/users", configObj)
     .then(function(response) {
       return response.json();
     })
@@ -23,12 +23,12 @@ function submitData(userName, userEmail) {
       console.log(object);
       // let newId = document.createElement('p');
       // newId.innerText = object.id.toString();
-      document.body.innerText += object.id.toString();
+      document.body.innerHTML += object.id.toString();
     })
     .catch(function(error) {
       // let errorMessage = document.createElement('p');
       // errorMessage.innerText = error.message;
 
-      document.body.innerText += error.message;
+      document.body.innerHTML += error.message;
     });
 }
