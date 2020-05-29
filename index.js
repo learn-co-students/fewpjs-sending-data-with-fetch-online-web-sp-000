@@ -1,5 +1,3 @@
-// Add your code here
-
 function submitData(userName, userEmail) {
   let formData = {
     name: userName,
@@ -21,14 +19,9 @@ function submitData(userName, userEmail) {
     })
     .then(function(object) {
       console.log(object);
-      // let newId = document.createElement('p');
-      // newId.innerText = object.id.toString();
       document.body.innerHTML += object.id.toString();
     })
     .catch(function(error) {
-      // let errorMessage = document.createElement('p');
-      // errorMessage.innerText = error.message;
-
       document.body.innerHTML += error.message;
     });
 }
