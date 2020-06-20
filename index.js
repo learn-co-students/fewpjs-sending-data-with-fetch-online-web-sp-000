@@ -44,16 +44,10 @@ configurationObject = {
     return fetch("http://localhost:3000/users", userObj)
     .then(response => response.json())
     .then(obj => {updateHeading(obj.id)})
-    .catch( err => {catchHeading(err.message)})
+    .catch( err => {updateHeading(err.message)})
   }
 
 function updateHeading(data){
     heading = document.getElementById("heading")
-    console.log(data)
     heading.innerHTML = data
-}
-function catchHeading(data){
-    heading = document.getElementById("heading")
-    console.log(data)
-    heading.innerHTML = data
-}
+
