@@ -1,7 +1,7 @@
 // Add your code here
 let submitData = {
-    name = "Byron",
-    email = "Poodle"
+    name = "same",
+    email = "sam@sam.com"
 };
 
 let configObj = {
@@ -14,13 +14,13 @@ let configObj = {
 };
 
 fetch("http://localhost:3000/users", configObj);
-.then(function(response) {
+then(function(response) {
     return response.json();
   })
-  .then(function(object) {
+  then(function(object) {
     console.log(object);
   })
-  .catch(function(error) {
+  catch(function(error) {
     alert("Bad things! Ragnarők!");
     console.log(error.message);
   });

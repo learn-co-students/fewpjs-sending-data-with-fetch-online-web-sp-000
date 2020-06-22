@@ -16,12 +16,16 @@
       "id": 1
     },
     {
-      "catName": "Gunnar",
-      "catBreed": "American Shorthair",
+      "catName": "Gunnar", 
+      "catBreed": "American Shorthair",   
       "id": 2
     }
   ],
-  "users": [],
+  "users": [{
+    "name": "sam",
+    "email": "sam@sam.com",
+    "id": 1
+  }],
   "robots": [{
     "robotName": "C8-09S100K",
     "robotType": "Human Assistant",
