@@ -1,8 +1,8 @@
-// Add your code here
+// // Add your code here
 
 
 function submitData(name, email) {
-    fetch("http://localhost:3000/users", {
+      return fetch("http://localhost:3000/users", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -14,18 +14,18 @@ function submitData(name, email) {
             })
         })
         .then(function(response) {
-          return response.json();
+          return response.json()
         })
         .then(function(object) {
-            let h1 = document.createElement("h1");
-          h1.innerText = object.id;
-          document.body.appendChild(h1)
+          document.body.innerHTML = object["id"];
         })
         .catch(function (error) {
-            document.body.innerText = error
+            document.body.innerHTML = error
         })
 
 }
 
-// document.addEventListener("DOMContentLoaded", submitData("Steve", "steve@steve.com"))
+// // document.addEventListener("DOMContentLoaded", submitData("Steve", "steve@steve.com"))
    
+
+  
