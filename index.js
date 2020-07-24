@@ -1,3 +1,5 @@
+const { object } = require("chai-spies");
+
 function submitData(name, email){
   let formData = {name, email};
 
@@ -12,16 +14,8 @@ function submitData(name, email){
 
 
   return fetch("http://localhost:3000/users", configObj)
-  .then(function(response) {
-    return response.json();
-  })
-  .then(function(object) {
-    console.log(object);
-    document.body.innerHTML = object.id;
-  })
-  .catch(function(error) {
-    console.log(error.message);
-    document.body.innerHTML = error.message;
-  });
+  .then(response => {return response.json();})
+  .then(object => {document.body.innerHTML = object.id;})
+  .catch(error => { document.body.innerHTML = error.message;});
 
 }
