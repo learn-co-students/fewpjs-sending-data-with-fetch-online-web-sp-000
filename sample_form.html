@@ -12,6 +12,16 @@
   </head>
 
   <body>
+
+    <!-- The key components as far as sending data to the server are:
+
+    The destination URL as defined in the action attribute of the <form> tag
+    The HTTP verb to use as defined in the method attribute of the <form> tag
+    The key / value data about the inputs in the fields dogName and dogBreed
+
+    fetch() will need the same information
+    in order to send data to the server                                      -->
+
     <h1>Sample Form</h1>
     <form action="http://localhost:3000/dogs" method="POST">
       <label> Dog Name: <input type="text" name="dogName" id="dogName" /></label><br />
