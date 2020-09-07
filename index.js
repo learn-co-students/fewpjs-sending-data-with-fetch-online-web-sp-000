@@ -19,14 +19,9 @@ function submitData(name, email) {
 		return response.json();
 	})
 	.then(function(object) {
-		const h1 = document.createElement("h1")
-		h1.appendChild(document.createTextNode(object.id))
-		document.body.appendChild(h1)
+		document.body.innerHTML += `<h1>${object.id}</h1>`
 	})
 	.catch(function(error) {
-		const div = document.createElement("div")
-		div.appendChild(document.createTextNode(error.message))
-		div.style.color = "red";
-		document.body.appendChild(div)
+		document.body.innerHTML += `<div style="color:red;">${error.message}</div>`
 	})
 }
