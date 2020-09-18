@@ -23,7 +23,9 @@ function submitData(username, useremail) {
         .then(function(object) {
           //console.log(object);
             
-            document.body.innerHTML = JSON.stringify(object)
+            document.body.innerHTML = '<pre>' + JSON.stringify(object) + '</pre>'
+
+
         })
         .catch(function(error) {
           alert("Unauthorized Access");
