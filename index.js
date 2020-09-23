@@ -1,31 +1,51 @@
 // Add your code here
 
-function submitData(formData) {
-
-  let formData = {
-    name: "Jennifer Beaver",
-    email: "jen.lee.beaver@gmail.com"
-  };
+function submitData(name, email) {
 
   let configObj = {
     method: "POST",
     headers: {
-      "Content-Type":
-      "application/json",
+      "Content-Type": "application/json",
+      "Accept": "application/json",
     },
-    body: JSON.stringify
+    body: JSON.stringify({
+      name,
+      email
+    })
   };
 
-  fetch("http://localhost:3000/users", configObj)
+  return fetch("http://localhost:3000/users", configObj)
     .then(function(response) {
-      return response.json();
+      return response.json()
     })
     .then(function(object) {
-      console.log(object);
+      document.body.innerHTML = object["id"]
     })
     .catch(function(error) {
       alert("There has been an error.");
-      console.log(error.message);
-    });
-    return fetch 
+      document.body.innerHTML = error.message
+    })
 }
+
+// function submitData( name, email ) {
+//   return fetch( 'http://localhost:3000/users', {
+//       method: "POST",
+//       headers: {
+//         "Content-Type": "application/json",
+//         "Accept": "application/json"
+//       },
+//       body: JSON.stringify( {
+//         name,
+//         email
+//       } )
+//     } )
+//     .then( function ( response ) {
+//       return response.json()
+//     } )
+//     .then( function ( object ) {
+//       document.body.innerHTML = object[ "id" ]
+//     } )
+//     .catch( function ( error ) {
+//       document.body.innerHTML = error.message
+//     } )
+// }
