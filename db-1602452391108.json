@@ -56,11 +56,6 @@
       "dogBreed": "Husky",
       "submit": "Submit",
       "id": 10
-    },
-    {
-      "dogName": "Byron",
-      "dogBreed": "Poodle",
-      "id": 11
     }
   ],
   "cats": [
@@ -75,64 +70,7 @@
       "id": 2
     }
   ],
-  "users": [
-    {
-      "name": "Jonathan",
-      "email": "jonathan_koss@yahoo.com",
-      "submit": "Submit",
-      "id": 1
-    },
-    {
-      "name": "j",
-      "email": "j@j.com",
-      "id": 2
-    },
-    {
-      "name": "j",
-      "email": "j@j.com",
-      "id": 3
-    },
-    {
-      "name": "j",
-      "email": "j@j.com",
-      "id": 4
-    },
-    {
-      "name": "j",
-      "email": "j@j.com",
-      "id": 5
-    },
-    {
-      "name": "j",
-      "email": "j@j.com",
-      "id": 6
-    },
-    {
-      "name": "j",
-      "email": "j@j.com",
-      "id": 7
-    },
-    {
-      "name": "c",
-      "email": "c@c.com",
-      "id": 8
-    },
-    {
-      "name": "c",
-      "email": "c@c.com",
-      "id": 9
-    },
-    {
-      "name": "j)",
-      "email": "j@j.com",
-      "id": 10
-    },
-    {
-      "name": "j)",
-      "email": "j@j.com",
-      "id": 11
-    }
-  ],
+  "users": [],
   "robots": [
     {
       "robotName": "C8-09S100K",
