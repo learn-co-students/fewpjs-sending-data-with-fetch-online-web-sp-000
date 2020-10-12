@@ -4,7 +4,7 @@
   "description": "A JavaScript lab",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json"
+    "test": "mocha --timeout 20000 -R mocha-multi --reporter-options spec=-,json=.results.json"
   },
   "author": "flatironschool",
   "license": "Included in Repo",
@@ -22,7 +22,7 @@
     "chai-spies": "^1.0.0",
     "mocha-jsdom": "^2.0.0",
     "nock": "^10.0.2",
-    "node-fetch": "^2.3.0",
-    "sinon": "^7.3.1"
+    "node-fetch": "^2.6.1",
+    "sinon": "^7.5.0"
   }
 }
