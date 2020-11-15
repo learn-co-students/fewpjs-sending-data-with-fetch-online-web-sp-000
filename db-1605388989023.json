@@ -9,37 +9,6 @@
       "dogName": "Lola",
       "dogBreed": "Giant Schnauzer",
       "id": 2
-    },
-    {
-      "dogName": "newdoc",
-      "dogBreed": "whatever",
-      "submit": "Submit",
-      "id": 3
-    },
-    {
-      "dogName": "Byron",
-      "dogBreed": "Poodle",
-      "id": 4
-    },
-    {
-      "dogName": "newdog",
-      "dogBreed": "Poodle",
-      "id": 5
-    },
-    {
-      "dogName": "bryan",
-      "dogBreed": "Poodle",
-      "id": 6
-    },
-    {
-      "dogName": "Salvia",
-      "dogBreed": "Poodle",
-      "id": 7
-    },
-    {
-      "dogName": "Salvia",
-      "dogBreed": "Poodle",
-      "id": 8
     }
   ],
   "cats": [
