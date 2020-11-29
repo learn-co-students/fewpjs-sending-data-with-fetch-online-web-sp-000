@@ -61,6 +61,66 @@
       "dogName": "Byron",
       "dogBreed": "Poodle",
       "id": 12
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 13
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 14
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 15
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 16
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 17
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 18
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 19
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 20
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 21
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 22
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 23
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 24
     }
   ],
   "cats": [
@@ -75,7 +135,102 @@
       "id": 2
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "name": "steve",
+      "email": "s@mail.com",
+      "id": 1
+    },
+    {
+      "name": "steve",
+      "email": "s@mail.com",
+      "id": 2
+    },
+    {
+      "name": "steve",
+      "email": "s@mail.com",
+      "id": 3
+    },
+    {
+      "name": "steve",
+      "email": "s@mail.com",
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "name": "Sam",
+      "email": "A",
+      "id": 13
+    },
+    {
+      "name": "Sam",
+      "email": "A",
+      "id": 14
+    },
+    {
+      "name": "Sam",
+      "email": "A",
+      "id": 15
+    },
+    {
+      "name": "Sam",
+      "email": "A",
+      "id": 16
+    },
+    {
+      "name": "Sam",
+      "email": "A",
+      "id": 17
+    },
+    {
+      "name": "Sam",
+      "email": "A",
+      "id": 18
+    },
+    {
+      "name": "Sam",
+      "email": "A",
+      "id": 19
+    },
+    {
+      "name": "Sam",
+      "email": "A",
+      "id": 20
+    },
+    {
+      "name": "Sam",
+      "email": "A",
+      "id": 21
+    },
+    {
+      "name": "Sam",
+      "email": "A",
+      "id": 22
+    }
+  ],
   "robots": [
     {
       "robotName": "C8-09S100K",
