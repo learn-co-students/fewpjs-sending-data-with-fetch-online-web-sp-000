@@ -1,5 +1,6 @@
 {
-  "dogs": [{
+  "dogs": [
+    {
       "dogName": "Luca",
       "dogBreed": "German Shepherd",
       "id": 1
@@ -10,7 +11,8 @@
       "id": 2
     }
   ],
-  "cats": [{
+  "cats": [
+    {
       "catName": "Stanley",
       "catBreed": "Tabby",
       "id": 1
@@ -21,10 +23,378 @@
       "id": 2
     }
   ],
-  "users": [],
-  "robots": [{
-    "robotName": "C8-09S100K",
-    "robotType": "Human Assistant",
-    "id": 9000
-  }]
+  "users": [
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 10
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 11
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 12
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 13
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 14
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 15
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 16
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 17
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 18
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 19
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 20
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 21
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 22
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 23
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 24
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 25
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 26
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 27
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 28
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 29
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 30
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 31
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 32
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 33
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 34
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 35
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 36
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 37
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 38
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 39
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 40
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 41
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 42
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 43
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 44
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 45
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 46
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 47
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 48
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 49
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 50
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 51
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 52
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 53
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 54
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 55
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 56
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 57
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 58
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 59
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 60
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 61
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 62
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 63
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 64
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 65
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 66
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 67
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 68
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 69
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 70
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 71
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 72
+    },
+    {
+      "name": "valentino",
+      "email": "valentino@gmail.com",
+      "id": 73
+    }
+  ],
+  "robots": [
+    {
+      "robotName": "C8-09S100K",
+      "robotType": "Human Assistant",
+      "id": 9000
+    }
+  ]
 }
