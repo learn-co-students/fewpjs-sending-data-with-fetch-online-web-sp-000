@@ -27,24 +27,6 @@
       "dogBreed": "My new dog",
       "submit": "Submit",
       "id": 5
-    },
-    {
-      "id": 6
-    },
-    {
-      "dogName": "Byron",
-      "dogBreed": "Poodle",
-      "id": 7
-    },
-    {
-      "dogName": "Test Dog",
-      "dogBreed": "Test",
-      "id": 8
-    },
-    {
-      "dogName": "Byron",
-      "dogBreed": "Poodle",
-      "id": 9
     }
   ],
   "cats": [
@@ -71,31 +53,6 @@
       "dogBreed": "new user",
       "submit": "Submit",
       "id": 1
-    },
-    {
-      "name": "c",
-      "email": "c@mail.com",
-      "id": 2
-    },
-    {
-      "name": "Test User",
-      "email": "test@mail.com",
-      "id": 3
-    },
-    {
-      "name": "Test User",
-      "email": "test@mail.com",
-      "id": 4
-    },
-    {
-      "name": "new user",
-      "email": "u@mail.com",
-      "id": 5
-    },
-    {
-      "name": "new user",
-      "email": "u@mail.com",
-      "id": 6
     }
   ],
   "robots": [
