@@ -18,6 +18,7 @@ function submitData( name, email ) {
         document.body.innerHTML = object[ "id" ]
       } )
       .catch( function ( error ) {
+        alert("There was an Error.");
         document.body.innerHTML = error.message
       } )
   }
