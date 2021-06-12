@@ -1,5 +1,6 @@
 {
-  "dogs": [{
+  "dogs": [
+    {
       "dogName": "Luca",
       "dogBreed": "German Shepherd",
       "id": 1
@@ -10,7 +11,8 @@
       "id": 2
     }
   ],
-  "cats": [{
+  "cats": [
+    {
       "catName": "Stanley",
       "catBreed": "Tabby",
       "id": 1
@@ -21,10 +23,88 @@
       "id": 2
     }
   ],
-  "users": [],
-  "robots": [{
-    "robotName": "C8-09S100K",
-    "robotType": "Human Assistant",
-    "id": 9000
-  }]
+  "users": [
+    {
+      "name": "Marissa",
+      "email": "horse.ski",
+      "id": 1
+    },
+    {
+      "name": "Marissa",
+      "email": "horse.ski",
+      "id": 2
+    },
+    {
+      "name": "Marissa",
+      "email": "horse.ski",
+      "id": 3
+    },
+    {
+      "name": "Marissa",
+      "email": "horse.ski",
+      "id": 4
+    },
+    {
+      "name": "Marissa",
+      "email": "horse.ski",
+      "id": 5
+    },
+    {
+      "name": "Marissa",
+      "email": "horse.ski",
+      "id": 6
+    },
+    {
+      "name": "Marissa",
+      "email": "horse.ski",
+      "id": 7
+    },
+    {
+      "name": "Marissa",
+      "email": "horse.ski",
+      "id": 8
+    },
+    {
+      "name": "Marissa",
+      "email": "horse.ski",
+      "id": 9
+    },
+    {
+      "name": "Marissa",
+      "email": "horse.ski",
+      "id": 10
+    },
+    {
+      "name": "Marissa",
+      "email": "horse.ski",
+      "id": 11
+    },
+    {
+      "name": "Marissa",
+      "email": "horse.ski",
+      "id": 12
+    },
+    {
+      "name": "Marissa",
+      "email": "horse.ski",
+      "id": 13
+    },
+    {
+      "name": "Marissa",
+      "email": "horse.ski",
+      "id": 14
+    },
+    {
+      "name": "Marissa",
+      "email": "horse.ski",
+      "id": 15
+    }
+  ],
+  "robots": [
+    {
+      "robotName": "C8-09S100K",
+      "robotType": "Human Assistant",
+      "id": 9000
+    }
+  ]
 }
